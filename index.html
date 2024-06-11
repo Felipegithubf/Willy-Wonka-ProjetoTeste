@@ -23,17 +23,19 @@
                 
                 <ul class="navigation">
                     <li>
-                        <a href="" class="">Início</a>
+                        <a href="#inicio">Início</a>
                     </li>
                     <li>
-                        <a href="" class="">Willy Wonka</a>
+                        <a href="#willy_wonka">Willy Wonka</a>
                     </li>
                     <li>
-                        <a href="" class="">Wallpaper</a>
+                        <a href="#wallpaper">Wallpaper</a>
                     </li>
+
                     <li>
-                        <a href="" class="">Trailer</a>
+                        <a href="#Contato">Contato</a>
                     </li>
+                    
                 </ul>
 
                 <div class="navigation_Social">
@@ -43,7 +45,7 @@
                         </svg>
                     </a>
                      
-                    <audio controls>
+                    <audio controls autoplay>
                         <source src="Wonka (2023) _ Pro Meu Sonho Alcançar (Dublado - PT-BR).mp3">
                         Seu navegador não suporta o elemento de áudio.
                     </audio>
@@ -77,10 +79,10 @@
     </header>
  
                        
-    <section class="story">
+    <section id="willy_wonka" class="story"> <!-- Adicionei o ID "willy_wonka" -->
        
         <div class="titulo">
-            <h1>HISTÓRIA</h1>
+            <h1>Willy Wonka</h1>
         </div>
         <div class="border">
             
@@ -95,8 +97,68 @@
         </div>
      </section>  
 
-     <div class="border">
-     </div>
-     
+                       
+     <section id="Wallpaper" class="story"> <!-- Adicionei o ID "willy_wonka" -->
+       
+        <div class="titulo2">
+            <h1>Walpapers</h1>
+        </div>
+        <div class="border">
+            
+        </div>
+
+        <div class="imagens-container">
+            <div class="imagem2">
+                <img src="Wallpapers/wonka-2023-movie-chalamet-2k-wallpaper-uhdpaper.com-264@1@n.jpg" width="800" height="auto">
+            </div>
+            
+            <div class="imagem3">
+                <img src="Wallpapers/wonka-2023-timothee-chalamet-2k-wallpaper-uhdpaper.com-790@1@j.jpg" width="800" height="auto">
+            </div>
+        </div>
+        <div class="imagem4">
+            <img src="Wallpapers/wonka-movie-2023-u5.jpg  " width="800" height="auto">
+        </div>
+
+        <div class="imagem5">
+            <img src="Wallpapers/wonka-timothee-chalamet-2k-wallpaper-uhdpaper.com-266@1@n.jpg" width="800" height="auto">
+        </div>
+
+        <div class="imagem6">
+            <img src="Wallpapers/wonka-timothee-chalamet-movie-2k-wallpaper-uhdpaper.com-263@1@n.jpg" width="800" height="auto">
+        </div>
+       
+           
+        </div>
+     </section>  
+
+     <section>
+        <div class="titulo3">
+            <h1>Entre em Contato</h1>
+        </div>
+
+        <div class="container">
+            <h2>Simple Form</h2>
+            <form id="myForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="response"></div>
+        </div>
+    
+     </section>
+
+ 
 </body>
 </html>
